@@ -7,8 +7,6 @@ from keras.models import load_model
 import pickle
 import joblib
 import os
-import io
-import requests
 
 st.set_page_config(page_title="Twitter Sentiment Analysis",page_icon= '🤖' ,initial_sidebar_state='expanded')
 # Load model function
