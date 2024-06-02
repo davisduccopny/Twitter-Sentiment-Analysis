@@ -10,8 +10,10 @@ import os
 
 
 st.set_page_config(page_title="Twitter Sentiment Analysis",page_icon= '🤖' ,initial_sidebar_state='expanded')
+@st.cache_data
 def download_and_merge_files():
-    if not os.path.exists('model/grid_search_rfclass_model_merged.h5'):
+    output_file = 'model/grid_search_rfclass_model_merged.h5'
+    if not os.path.exists(output_file):
         file_parts = [
             'model/grid_search_rfclass_model.h5.part0',
             'model/grid_search_rfclass_model.h5.part1',
@@ -20,30 +22,30 @@ def download_and_merge_files():
             'model/grid_search_rfclass_model.h5.part4',
         ]
 
-        output_file = 'model/grid_search_rfclass_model_merged.h5'
-
         with open(output_file, 'wb') as merged_file:
             for part in file_parts:
                 with open(part, 'rb') as part_file:
                     merged_file.write(part_file.read())
-download_and_merge_files()
+    return output_file
+output_file =download_and_merge_files()
 # Load model function
-@st.cache_resource()
+@st.cache()
 def load_model_check(model_path):
     with open(model_path, 'rb') as f:
         model = pickle.load(f)
     return model
-@st.cache_resource()
+@st.cache()
 def load_model_check_GRU(model_path):
     model = load_model(model_path)
     return model
+@st.cache()
 def load_model_check_RF(model_path):
     model = joblib.load(model_path)
     return model
 # Run model 
 model_GRU = load_model_check_GRU('model/best_model_GRU.h5')
 model_logistic = load_model_check('model/clf_model.h5')
-model_random_forest =  load_model_check_RF('model/grid_search_rfclass_model_merged.h5')
+model_random_forest =  load_model_check_RF(output_file)
 model_SGD = load_model_check('model/grid_search_sgd_model.h5')
 class SentimentAnalysis:
     def __init__(self):
