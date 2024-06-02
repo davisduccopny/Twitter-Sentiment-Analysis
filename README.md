@@ -5,6 +5,9 @@
 **See web-app :** [Twitter-Sentiment-Analysis-teamdata](https://twitter-sentiment-analysis-teamdata.streamlit.app/)
 
 **Usage data:** [Twitter Data](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Twitter_Data.csv)
+
+**Project Colab :** [Colab notebook Teamdata](https://drive.google.com/file/d/1D9dFuZekG6cmH-0J1e730DDUZ5qzl7zu/view?usp=sharing)
+
 #### Data summary: Data is loaded from the Tweepy and PRAW API. The data has been cleaned using re and NLP libraries, with labels from -1 to 1
 * [ 0 is label neutral ](#1)
 * [ 1 is label positive](#2)
