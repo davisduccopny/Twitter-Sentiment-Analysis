@@ -5,7 +5,7 @@
 
 #### The "Twitter Sentiment Analysis" project uses data provided by Twitter, using basic machine learning and neural network models to classify the sentiment of tweets. Results are classified into categories as positive, negative or neutral.
 #### - The project has been built into a web-app using the Streamlit library:
-**See web-app :** [TeamQuocChienDuc](https://twitter-sentiment-analysis-teamdata.streamlit.app/)
+**See web-app :** [Twitter-Sentiment-Analysis-teamdata](https://twitter-sentiment-analysis-teamdata.streamlit.app/)
 
 **Usage data:** [Twitter Data](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Twitter_Data.csv)
 #### Data summary: Data is loaded from the Tweepy and PRAW API. The data has been cleaned using re and NLP libraries, with labels from -1 to 1
@@ -63,7 +63,8 @@ To run this project locally, follow these steps:
     ```
     git clone https://github.com/davisduccopny/Twitter-Sentiment-Analysis.git
     ```
-    Download Random Forest Model from link and move file to Twitter-Sentiment-Analysis/model : [RandomForestModel](https://drive.google.com/file/d/1eu-PX2uWr5hLFXAQ2eJfaI4KHMmFhds1/view?usp=sharing)
+    Random forest is too heavy, so you need to download it locally to use it. In Streamlit Cloud version, only 3 models can be used
+    - Download Random Forest Model from link and move file to ```Twitter-Sentiment-Analysis/model``` : [RandomForestModel](https://drive.google.com/file/d/1eu-PX2uWr5hLFXAQ2eJfaI4KHMmFhds1/view?usp=sharing)
 
 2. Navigate to the project directory:
     ```
