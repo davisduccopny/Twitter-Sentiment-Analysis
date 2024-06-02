@@ -38,7 +38,6 @@ def load_model_check(model_path):
 def load_model_check_GRU(model_path):
     model = load_model(model_path)
     return model
-@st.cache_resource()
 def load_model_check_RF(model_path):
     model = joblib.load(model_path)
     return model
