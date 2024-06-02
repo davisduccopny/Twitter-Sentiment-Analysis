@@ -106,4 +106,4 @@ st.markdown(  """
             ---
             """)
 st.info(
-            "Created and designed by [Team Data Science - QuocChienDuc](https://github.com/davisduccopny/Stock-Prediction-with-Python-project/)")
+            "Created and designed by [Team Data Science - QuocChienDuc](https://github.com/davisduccopny/Twitter-Sentiment-Analysis)")
