@@ -6,9 +6,28 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 import pickle
 import joblib
+import os
 
 
 st.set_page_config(page_title="Twitter Sentiment Analysis",page_icon= '🤖' ,initial_sidebar_state='expanded')
+@st.cache_resource()
+def download_and_merge_files():
+    if not os.path.exists('model/grid_search_rfclass_model_merged.h5'):
+        file_parts = [
+            'model/grid_search_rfclass_model.h5.part0',
+            'model/grid_search_rfclass_model.h5.part1',
+            'model/grid_search_rfclass_model.h5.part2',
+            'model/grid_search_rfclass_model.h5.part3',
+            'model/grid_search_rfclass_model.h5.part4',
+        ]
+
+        output_file = 'model/grid_search_rfclass_model_merged.h5'
+
+        with open(output_file, 'wb') as merged_file:
+            for part in file_parts:
+                with open(part, 'rb') as part_file:
+                    merged_file.write(part_file.read())
+download_and_merge_files()
 # Load model function
 @st.cache_resource()
 def load_model_check(model_path):
@@ -26,13 +45,13 @@ def load_model_check_RF(model_path):
 # Run model 
 model_GRU = load_model_check_GRU('model/best_model_GRU.h5')
 model_logistic = load_model_check('model/clf_model.h5')
-model_random_forest =  load_model_check_RF('model/grid_search_rfclass_model.h5')
+model_random_forest =  load_model_check_RF('model/grid_search_rfclass_model_merged.h5')
 model_SGD = load_model_check('model/grid_search_sgd_model.h5')
 class SentimentAnalysis:
     def __init__(self):
         self.max_len = 50
 
-        with open('model/tokenizer (1).pickle', 'rb') as handle:
+        with open('model/tokenizer.pickle', 'rb') as handle:
             self.tokenizer = pickle.load(handle)
         with open('model/vectorizer.pkl', 'rb') as f:
             self.vectorizer = pickle.load(f)
