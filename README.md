@@ -19,6 +19,11 @@
 * [Logistic Regression](#2)
 * [Random Forest](#3)
 * [Stochastic Gradient Descent (SGD)](#3)
+
+#### - Library used in the project:
+* [requirements.txt) ](#1)
+* [main-classification.ipynb](#2)
+
    
  **<span style="color:red;"> Hope everyone will review and give their opinion about Notebook.</span>**
 
@@ -49,3 +54,33 @@
     - [Stochastic Gradient Descent (SGD)](#4.5)
 
 * [5. Model Evaluation and Comparison](#5)
+  
+### Installation APP Guide <a id="6"></a>
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```
+    git clone https://github.com/davisduccopny/Twitter-Sentiment-Analysis.git
+    ```
+    Download Random Forest Model from link and move file to Twitter-Sentiment-Analysis/model : [RandomForestModel](https://drive.google.com/file/d/1eu-PX2uWr5hLFXAQ2eJfaI4KHMmFhds1/view?usp=sharing)
+
+2. Navigate to the project directory:
+    ```
+    cd Twitter-Sentiment-Analysis
+    ```
+
+3. Install the required dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
+4. Run the web app:
+    ```
+    streamlit run interface.py
+    ```
+
+5. Open your web browser and go to `http://localhost:8501` to access the Twitter Sentiment Analysis web app.
+
+---
+
+That's it! You have successfully installed and run the Twitter Sentiment Analysis project locally. Enjoy analyzing sentiments of tweets!
