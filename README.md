@@ -29,7 +29,7 @@
 
 
    <a id='top'></a>
-
+______________________________________________________
 ### The main section
 
 
@@ -54,7 +54,7 @@
     - [Stochastic Gradient Descent (SGD)](#4.5)
 
 * [5. Model Evaluation and Comparison](#5)
-  
+_____________________________________________________________
 ### Installation APP Guide <a id="6"></a>
 
 To run this project locally, follow these steps:
