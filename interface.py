@@ -10,7 +10,6 @@ import os
 
 
 st.set_page_config(page_title="Twitter Sentiment Analysis",page_icon= '🤖' ,initial_sidebar_state='expanded')
-@st.cache_resource()
 def download_and_merge_files():
     if not os.path.exists('model/grid_search_rfclass_model_merged.h5'):
         file_parts = [
