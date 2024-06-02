@@ -14,26 +14,26 @@
 * [ -1 is a negative label](#3)
 
 
-#### - Model used in the project:
+#### Model used in the project:
 * [Gate Recurrent Unit (GRU) ](#1)
 * [Logistic Regression](#2)
 * [Random Forest](#3)
 * [Stochastic Gradient Descent (SGD)](#3)
 
-#### - Library used in the project:
-* [requirements.txt) ](#1)
-* [main-classification.ipynb](#2)
+#### Library used in the project:
+* ```requirements.txt```
+* ```main-classification.ipynb```
 
    
  **<span style="color:red;"> Hope everyone will review and give their opinion about Notebook.</span>**
 
 
    <a id='top'></a>
-<div class="list-group" id="list-tab" role="tablist">
-<p style="background-color:#3498db; font-family:'Candara Light', sans-serif; color:#ffffff; font-size:175%;border-radius:10px; padding:10px;">The main section</p>
+
+### The main section
 
 
-* [first. Data OverView](#1)
+* [1. Data OverView](#1)
     
     - [Import library](#1.1)
     
