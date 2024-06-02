@@ -1,7 +1,4 @@
-<div style="text-align:center;">
-<h2 style="background-color:#ffffff;font-family:candaralight;color:#B0B0B0;font-size:150%;text-align:center;border-radius:10px 10px;">Twitter Sentiment Analysis</ h2>
-</div>
-
+<h1 align="center">Twitter Sentiment Analysis</h1>
 
 #### The "Twitter Sentiment Analysis" project uses data provided by Twitter, using basic machine learning and neural network models to classify the sentiment of tweets. Results are classified into categories as positive, negative or neutral.
 #### - The project has been built into a web-app using the Streamlit library:
