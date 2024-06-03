@@ -23,6 +23,42 @@
 #### Library used in the project:
 * ```requirements.txt```
 * ```main-classification.ipynb```
+### Idea of the project:
+#### Step 1: Data Preparation
+- Data Collection
+- Load libraries and Data Overview
+#### Step 2: Exploratory Data Analysis
+- Analyze the distribution of category.
+- Analyze the distribution of tweet lengthss.
+- Word frequency by category.
+#### Step 3: Data Preprocessing
+- Remove special characters, convert to lowercase, remove stop words, and perform tokenization and/or lemmatization.
+- Sqlite connection to find sensitive word frequency
+#### Step 4: Modeling
+- Gate Recurrent Unit (GRU)
+    - Tokenization and padding.
+    - Train & Test Split
+    - Model Building
+    - Compile and Train model
+    - Model Evaluation
+    - Analyze Similarly
+    - Build a new tweet dataset
+- Data Preprocessing For Machine Learning Model
+    - Train & Test Split
+    - Vectorization
+- Logistics Regression
+    - Model Building
+    - Model Evaluation
+- Random Forest
+    - Model Building
+    - Model Evaluation
+- Stochastic Gradient Descent (SGD)
+    - Model Building
+    - Model Evaluation
+#### Step 5: Model Evaluation and Comparison
+
+
+
 
    
  **<span style="color:red;"> Hope everyone will review and give their opinion about Notebook.</span>**
@@ -30,7 +66,7 @@
 
    <a id='top'></a>
 ______________________________________________________
-### The main section
+### Tables of Contents
 
 
 * [1. Data OverView](#1)
