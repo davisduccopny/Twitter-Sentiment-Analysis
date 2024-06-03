@@ -23,7 +23,9 @@
 #### Library used in the project:
 * ```requirements.txt```
 * ```main-classification.ipynb```
-### Idea of the project:
+______________________________________________
+
+## Idea of the project:
 #### Step 1: Data Preparation
 - Data Collection
 - Load libraries and Data Overview
