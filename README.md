@@ -26,16 +26,20 @@
 ______________________________________________
 
 ## Idea of the project:
+
 #### Step 1: Data Preparation
 - Data Collection
 - Load libraries and Data Overview
+
 #### Step 2: Exploratory Data Analysis
 - Analyze the distribution of category.
 - Analyze the distribution of tweet lengthss.
 - Word frequency by category.
+
 #### Step 3: Data Preprocessing
 - Remove special characters, convert to lowercase, remove stop words, and perform tokenization and/or lemmatization.
 - Sqlite connection to find sensitive word frequency
+
 #### Step 4: Modeling
 - Gate Recurrent Unit (GRU)
     - Tokenization and padding.
@@ -58,6 +62,9 @@ ______________________________________________
     - Model Building
     - Model Evaluation
 #### Step 5: Model Evaluation and Comparison
+
+#### Conclusion
+- Through the above process, we have performed Sentiment Analysis using the GRU model to analyze and evaluate emotions in textual data. This can be applied in various real-world applications such as customer feedback analysis, social media sentiment monitoring, and more.
 
 
 
