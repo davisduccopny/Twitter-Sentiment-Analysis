@@ -69,16 +69,6 @@ ______________________________________________
     - Model Evaluation
 #### Step 5: Model Evaluation and Comparison
 
-#### Conclusion
-- Through the above process, we have performed Sentiment Analysis using the GRU model to analyze and evaluate emotions in textual data. This can be applied in various real-world applications such as customer feedback analysis, social media sentiment monitoring, and more.
-
-
-
-
-   
- **<span style="color:red;"> Hope everyone will review and give their opinion about Notebook.</span>**
-
-
    <a id='top'></a>
 ______________________________________________________
 ### Tables of Contents
@@ -105,6 +95,10 @@ ______________________________________________________
     - [Stochastic Gradient Descent (SGD)](#4.5)
 
 * [5. Model Evaluation and Comparison](#5)
+
+#### Conclusion
+- Through the above process, we have performed Sentiment Analysis using the GRU model to analyze and evaluate emotions in textual data. This can be applied in various real-world applications such as customer feedback analysis, social media sentiment monitoring, and more.
+
 _____________________________________________________________
 ### Installation APP Guide <a id="6"></a>
 
