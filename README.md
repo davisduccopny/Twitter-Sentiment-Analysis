@@ -140,11 +140,12 @@ To run this project locally, follow these steps:
 ---
 
 That's it! You have successfully installed and run the Twitter Sentiment Analysis project locally. Enjoy analyzing sentiments of tweets!
-[contributors-shield]: https://img.shields.io/github/contributors/davisduccopny/Twitter-Sentiment-Analysis?style=for-the-badge&label=Contributors 
-[contributors-url]:https://github.com/davisduccopny/Twitter-Sentiment-Analysis/graphs/contributors 
-[forks-shield]:https://img.shields.io/github/forks/davisduccopny/Twitter-Sentiment-Analysis?label=Folks&style=for-the-badge
-[forks-url]: https://github.com/davisduccopny/Twitter-Sentiment-Analysis/forks
-[stars-shield]: https://img.shields.io/github/stars/davisduccopny/Twitter-Sentiment-Analysis?style=for-the-badge&label=Stars
-[stars-url]: https://github.com/davisduccopny/Twitter-Sentiment-Analysis/stargazers
-[issues-shield]: https://img.shields.io/github/issues/davisduccopny/Twitter-Sentiment-Analysis?style=for-the-badge&label=Issues
-[issues-url]: https://github.com/davisduccopny/Twitter-Sentiment-Analysis/issues
+
+[contributors-shield]: https://img.shields.io/github/contributors/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?style=for-the-badge&label=Contributors 
+[contributors-url]:https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/graphs/contributors 
+[forks-shield]:https://img.shields.io/github/forks/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?label=Folks&style=for-the-badge
+[forks-url]: https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/forks
+[stars-shield]: https://img.shields.io/github/stars/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?style=for-the-badge&label=Stars
+[stars-url]: https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/stargazers
+[issues-shield]: https://img.shields.io/github/issues/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?style=for-the-badge&label=Issues
+[issues-url]: https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/issues
