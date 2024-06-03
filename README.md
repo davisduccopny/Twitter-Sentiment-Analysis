@@ -3,10 +3,6 @@
 <div align="center">
 
 ![Project Image](./assets/image/sentimentanalysishotelgeneric-2048x803-1.jpg)  
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 
 </div>
 
@@ -140,12 +136,3 @@ To run this project locally, follow these steps:
 ---
 
 That's it! You have successfully installed and run the Twitter Sentiment Analysis project locally. Enjoy analyzing sentiments of tweets!
-
-[contributors-shield]: https://img.shields.io/github/contributors/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?style=for-the-badge&label=Contributors 
-[contributors-url]:https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/graphs/contributors 
-[forks-shield]:https://img.shields.io/github/forks/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?label=Folks&style=for-the-badge
-[forks-url]: https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/forks
-[stars-shield]: https://img.shields.io/github/stars/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?style=for-the-badge&label=Stars
-[stars-url]: https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/stargazers
-[issues-shield]: https://img.shields.io/github/issues/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm?style=for-the-badge&label=Issues
-[issues-url]: https://github.com/davisduccopny/Diagnosing-cancer-with-the-KNN-algorithm/issues
